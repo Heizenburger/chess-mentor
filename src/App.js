@@ -10,7 +10,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<ChessMentorHome />} />
-        <Route path="/explorer" component={ChessExplorer} />
         <Route path="/puzzle" element={<PuzzlePage />} />
         <Route path="/computer" element={<PlayWithComputer />} />
       </Routes>
